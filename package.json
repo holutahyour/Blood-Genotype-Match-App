@@ -1,0 +1,14 @@
+{
+  "name": "blood-genotype-match",
+  "version": "1.0.0",
+  "description": "This App check's blood group and genotype compatibility",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Onibudo Victor",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

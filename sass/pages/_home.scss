@@ -1,0 +1,21 @@
+.section-loader{
+    height: 100vh;
+    
+    // background:linear-gradient(90deg, $color-primary-light ($dot-space - $dot-size),transparent 1%) center,
+    //             linear-gradient($color-primary-light ($dot-space - $dot-size),transparent 1%) center,
+    //             rgba($color-primary-white, .1);
+    // background-size: $dot-space $dot-space;
+
+    background-image: radial-gradient(circle, rgba($color-primary-white, .3) 5%, transparent 15%);
+    background-color: $color-primary-light;
+    background-position: 0 0, 1rem 1rem;
+    background-size: 3rem 3rem;
+
+}
+
+.section-match{
+    padding: 0;
+    height: 100%;
+    background-color: $color-primary-white-2;
+    z-index: -1;
+}

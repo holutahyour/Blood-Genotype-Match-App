@@ -1,0 +1,66 @@
+.match-header{
+    box-shadow: 0 1.3rem 1.2rem -1.3rem rgba($color-primary-black,.5);
+    padding: 12rem 6rem;
+    background-color: $color-primary-white;
+
+    &__title{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__option-box{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+
+    &__option{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 .5rem 1rem rgba($color-primary-black, .5);
+        width: 40%;
+        height: 18rem;
+        border-radius: 2rem;
+        transition: all .2s;
+        cursor: pointer;
+    }
+
+    &__option:hover{
+        box-shadow: 0 .7rem 1.5rem rgba($color-primary-black, .5);
+        transform: translateY(-3px) scale(1.03);
+    }
+
+    &__option:active{
+        transform: translateY(-1px) scale(1);
+    }
+
+
+    .match-svg{
+        height: 5rem;
+        fill: $color-primary-light;
+        transform: rotate(-45deg);
+    }
+
+    .bloodgroup-svg{
+        height: 5rem;
+    }
+
+    .u-option-active .option__logo .bloodgroup-svg .fill-3,
+    .u-option-active .option__logo .bloodgroup-svg .fill-4,
+    .u-option-active .option__logo .bloodgroup-svg .fill-5,
+    .u-option-active .option__logo .bloodgroup-svg .fill-6,
+    .u-option-active .option__logo .bloodgroup-svg .fill-7,
+    .u-option-active .option__logo .bloodgroup-svg .fill-8,
+    .u-option-active .option__logo .bloodgroup-svg .fill-1
+    {
+        fill: $color-primary-white;
+    }
+
+    .u-option-active .option__logo .bloodgroup-svg .fill-2{
+        fill: $color-primary-black-3
+    }
+
+
+    
+}

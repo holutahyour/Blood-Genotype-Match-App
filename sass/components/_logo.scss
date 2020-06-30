@@ -1,0 +1,89 @@
+.logo{
+    &-box{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__large{
+        height: 15rem;
+        width: 15rem;
+        background-color: $color-primary-white;
+    }
+
+    &__small{
+        height: 7rem;
+        width: 7rem;
+        background-color: $color-primary-light;
+    }
+
+    &__shadow{
+        box-shadow: $shadow-dark;
+    }
+
+    &__first-layer{
+        display: inline-block;
+        border-radius: 50% 2rem 50% 50%;
+    }
+
+    &__container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+
+    &__droplet-box{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__large-droplet{
+        fill: $color-primary-light;
+    }
+
+    &__small-droplet{
+        fill: $color-primary-white;
+    }
+
+    &__large--large-droplet{
+        height: 6rem;
+        width: 6rem;
+        margin-left: -.5rem;
+    }
+
+    &__large--small-droplet{
+        height: 3rem;
+        width: 3rem;
+        margin-top: -1rem;
+        margin-left: -2rem;
+   }
+
+    &__small--large-droplet{
+        height: 3rem;
+        width: 3rem;
+        margin-left: -.5rem;
+    }
+
+    &__small--small-droplet{
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-top: -.5rem;
+        margin-left: -1rem;
+   }
+
+   &__icon--large-droplet{
+       font-size: 4rem;
+   }
+   
+   &__text{
+       color: $color-primary-white;
+       text-transform: capitalize;
+       font-size: 2.5rem;
+       font-weight: 700;
+       margin-top: 3rem;
+       letter-spacing: .1rem;
+
+   }
+}

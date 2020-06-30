@@ -1,0 +1,20 @@
+.container-fluid{
+    max-width: $grid-width;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    box-shadow: 0 1.4rem 2rem .2rem rgba($color-primary-black, .5);
+}
+
+.u-center{
+    text-align: center;
+}
+
+.u-option-active{
+    background-color: $color-primary-light;
+    color: $color-primary-white;
+}
+
+.u-option-active .option__logo svg{
+    fill: $color-primary-white !important;
+}
