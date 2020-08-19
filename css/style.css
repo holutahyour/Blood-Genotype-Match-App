@@ -209,8 +209,9 @@ body {
   .match-main .selector__flow {
     text-align: center;
     position: relative; }
-    .match-main .selector__flow > svg {
-      height: 50rem; }
+    .match-main .selector__flow svg {
+      height: 50rem;
+      width: 65rem; }
     .match-main .selector__flow .svg__text {
       background-color: #fff;
       width: fit-content;
@@ -252,7 +253,7 @@ body {
       margin: 8rem; }
       .match-main .selector__btn-container:first-child {
         margin-bottom: 4rem; }
-      .match-main .selector__btn-container:last-child {
+      .match-main .selector__btn-container--1, .match-main .selector__btn-container--2 {
         margin-top: -2rem;
         margin-left: 10rem;
         justify-content: center; }

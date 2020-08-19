@@ -95,8 +95,9 @@
             text-align: center;
             position: relative;
 
-            &>svg{
+            & svg{
                 height: 50rem;
+                width: 65rem;
             }
 
             .svg__text{
@@ -156,11 +157,11 @@
                     margin-bottom: 4rem;
                 }
 
-                &:last-child{
+                &--1,
+                &--2{
                     margin-top: -2rem;
                     margin-left: 10rem;
                     justify-content: center;
-
                 }
             }
 
